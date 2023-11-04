@@ -170,7 +170,7 @@ hr {
 
 .celcious {
   font-size: 20px;
-  font-family: rotaregular;
+  font-family: rotamedium;
 }
 
 .tempeH1 {
@@ -201,6 +201,8 @@ hr {
 
 /*==========================================================*/
 
+/*Audio & Lighting*/
+
 .audioH1 {
   font-family: rotabold;
   color: #5448C8;
@@ -213,7 +215,7 @@ hr {
 }
 
 .audioH1 h1{
-  font-size: 80px;
+  font-size: 85px;
 /*  font-weight: 700 !important;*/
   margin-bottom: 0px;
   margin-top: 35px;
@@ -225,7 +227,10 @@ hr {
   background:  #6DD0A5;
   margin-left: 20px;
   border-radius: 5px;
-  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px
 }
 
 .audioTot {
@@ -242,14 +247,17 @@ hr {
   font-family: rotablack !important;
   color: #999999;
   font-size: 25px;
-  font-weight: 700px;
+  font-weight: bold;
+  line-height:35px;
   margin-top: 10px;
 }
+
+/*========================================*/
 
 /*Displays*/
 
 .divSix{
-  margin-top: 50px;
+  margin-top: 65px;
   font-size: 25px;
 }
 
@@ -262,9 +270,12 @@ hr {
   font-size: 15px;
 }
 .vl {
-  border-left: 0.5px solid;
+  border-left: 0.3px solid;
   border-left-color: currentcolor;
-height: 60px;
-margin-left: 10px;
+border-left-color: currentcolor;
+height: 70px;
+margin-left: 5px;
 border-color: #999;
+text-align: center;
+margin-top: 10px;
 }
