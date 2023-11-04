@@ -48,11 +48,6 @@
   
 }
 
-/* .logo-section{
-  height: 100px;
-  width: 100px;
-} */
-
 .card-section{
   margin-top: 50px;
   font-family: rotaregular;
@@ -104,10 +99,6 @@
 /*  display: black;*/
   max-width: 80%;
 }
-
-/* .airQualityContent{
-  margin-top: 10px;
-} */
 
 .air-innerFont span h5 {
   font-size: 40px  !important;
@@ -215,7 +206,7 @@ hr {
 }
 
 .audioH1 h1{
-  font-size: 85px;
+  font-size: 80px;
 /*  font-weight: 700 !important;*/
   margin-bottom: 0px;
   margin-top: 35px;
