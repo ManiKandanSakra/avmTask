@@ -1,0 +1,314 @@
+@font-face {
+  font-family: 'rotaregular';
+  src: url('./fonts/rota-regular-webfont.woff2') format('woff2'),
+       url('./fonts/rota-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'rotamedium';
+  src: url('./fonts/rota-medium-webfont.woff2') format('woff2'),
+       url('./fonts/rota-medium-webfont.woff') format('woff');
+  font-weight: medium;
+  font-style: medium;
+
+}
+
+@font-face {
+  font-family: 'rotabold';
+  src: url('./fonts/rota-bold-webfont.woff2') format('woff2'),
+       url('./fonts/rota-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: bold;
+
+}
+
+@font-face {
+  font-family: 'rotablack';
+  src: url('./fonts/rota-black-webfont.woff2') format('woff2'),
+       url('./fonts/rota-black-webfont.woff') format('woff');
+  font-weight: black;
+  font-style: black;
+
+}
+
+
+
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}*/
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/*.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
+/* body{
+  background-color: gray;
+} */
+
+.header{
+  text-align: center;
+  /* background-color: #b6b6b8; */
+  font-size: 14px;
+  margin-top: 50px;
+  /* height: 100px; */
+  width: 100%; 
+}
+.header img{
+  max-width: 180px;
+  
+}
+
+/* .logo-section{
+  height: 100px;
+  width: 100px;
+} */
+
+.card-section{
+  margin-top: 50px;
+  font-family: rotaregular;
+}
+
+.card-name{
+  font-family: rotabold !important;
+  font-size: 28px !important;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.card-name-audio{
+  font-family: rotablack;
+}
+
+.air-card-body{
+  /* width: 80%;  */
+  min-height:100px !important;
+  padding: 20px !important;  
+}
+
+.card-first{
+  background: #ebebeb !important;
+  border : none !important;
+  border-radius : 16px !important;
+}
+
+.airQualityH1 {
+  font-family: rotabold;
+  color: #fff;
+  background-color: #6DD0A5;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.airQualityH1 h1{
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-family: rotablack;
+}
+.airContent{
+/*  display: black;*/
+  max-width: 70%;
+}
+
+/* .airQualityContent{
+  margin-top: 10px;
+} */
+
+.air-innerFont span h5 {
+  font-size: 40px  !important;
+/*  font-weight: 800;*/
+  color: #999999;
+  margin-bottom: 0px;
+  font-family: rotablack;
+}
+
+.air-innerFont h5 {
+  font-size: 40px  !important;
+/*  font-weight: 800;*/
+  color: #999999;
+  margin-bottom: 0px;
+  font-family: rotablack;
+}
+
+.arrown-down{
+  color: #ffb71d;
+}
+
+.arrown-up{
+  color:#6DD0A5;
+}
+hr {
+  margin: 0px 0 !important;
+}
+/*========================================*/
+
+/*Temprature*/
+
+.tempContent{
+/*  display: black;*/
+  max-width: 75%;
+}
+
+
+.temp-innerFont span h5 {
+  font-size: 40px  !important;
+/*  font-weight: 800;*/
+  color: #999999;
+  margin-bottom: 0px;
+  font-family: rotablack;
+}
+
+.temp-innerFont h5 {
+  font-size: 40px  !important;
+/*  font-weight: 800;*/
+  color: #999999;
+  margin-bottom: 0px;
+  font-family: rotablack;
+}
+
+
+.fire-icon {
+  height: 15px;
+  /* padding: 10px; */
+  padding-right: 8px !important;
+}
+
+.celcious {
+  font-size: 20px;
+  font-family: rotaregular;
+}
+
+.tempeH1 {
+  font-family: rotabold;
+  color: #fff;
+  background-color: #5448C8;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tempeH1 h1{
+  font-size: 50px;
+  font-weight: 700 !important;
+  margin-bottom: 0px;
+  font-family: rotablack;
+}
+
+.content-celcious{
+  font-size: 18px;
+  font-family: rotaregular;
+}
+
+/*==========================================================*/
+
+.audioH1 {
+  font-family: rotabold;
+  color: #5448C8;
+  width: 140px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.audioH1 h1{
+  font-size: 80px;
+/*  font-weight: 700 !important;*/
+  margin-bottom: 0px;
+  margin-top: 35px;
+  font-family: rotablack;
+}
+
+.playtext {
+  color: #fff;
+  background:  #6DD0A5;
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.audioTot {
+/*  font-family: rotabold;*/
+  color: #999999;
+  line-height: 0px !important;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.audioH3{
+  font-family: rotablack !important;
+  color: #999999;
+  font-size: 25px;
+  font-weight: 700px;
+  margin-top: 10px;
+}
+
+/*Displays*/
+
+.divSix{
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.dispalyTime{
+  text-align: left !important;
+  color: #999999;
+  line-height: 0px !important;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.vl {
+  border-left: 0.5px solid;
+  border-left-color: currentcolor;
+height: 60px;
+margin-left: 10px;
+border-color: #999;
+}
