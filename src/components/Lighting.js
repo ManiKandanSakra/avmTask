@@ -1,12 +1,9 @@
 import * as React from 'react';
-// import Card from 'react-bootstrap/Card';
-// import CardGroup from 'react-bootstrap/CardGroup';
-import { Container, Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 export default class Lighting extends React.Component {
     render() {
         return (
-            <Container>
              <Card className='card-first'>  
                 <Card.Body  className='card-body'>  
                     <Card.Title className='card-name'>Lighting</Card.Title>  
@@ -17,8 +14,7 @@ export default class Lighting extends React.Component {
                         </div>
                     </div>
                 </Card.Body>  
-            </Card>
-            </Container> 
+            </Card> 
         )
     }
 }

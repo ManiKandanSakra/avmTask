@@ -1,10 +1,9 @@
 import * as React from 'react'
-import {Container ,Card} from 'react-bootstrap';  
+import {Card} from 'react-bootstrap';  
 
 export default class Audio extends React.Component {
     render() {
         return (
-            <Container>
             <Card className='card-first'>  
                 <Card.Body  className='card-body'>  
                     <Card.Title className='card-name'>Audio</Card.Title>  
@@ -15,8 +14,7 @@ export default class Audio extends React.Component {
                         </div>
                     </div>
                 </Card.Body>  
-            </Card> 
-            </Container>
+            </Card>
         )
     }
 }
