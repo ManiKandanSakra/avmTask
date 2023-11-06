@@ -15,12 +15,12 @@ const Cards = () => {
 
     useEffect(() => {
         let dataJson = {
-            'AirQuality':{
-                'title' : 'Air Quality',
-                'value' : 72,
-                'high' : 93,
-                'low' : 61
-            },
+            // 'AirQuality':{
+            //     'title' : 'Air Quality',
+            //     'value' : 72,
+            //     'high' : 93,
+            //     'low' : 61
+            // },
             'Temperature':{
                 'title' : 'Temperature',
                 'celcious' : 21,
@@ -50,21 +50,21 @@ const Cards = () => {
   return (
     <div className="container" > 
         <div className='row classRow'>
-            <div className='col-md-4 colClass'>
+            {value.AirQuality && <div className='col-md-4 colClass' >
                 <AirQuality value={value.AirQuality}/>
-            </div>
-            <div className='col-md-4 colClass'>
+            </div>} 
+           {value.Temperature && <div className='col-md-4 colClass'>
                 <Temperature value={value.Temperature}/>
-            </div>
-            <div className='col-md-4 colClass'>
+            </div>} 
+            {value.Audio && <div className='col-md-4 colClass'>
                 <Audio value={value.Audio}/>
-            </div>
-            <div className='col-md-4 colClass'>
+            </div>}
+            {value.Displays && <div className='col-md-4 colClass'>
                 <Displays  value={value.Displays}/>
-            </div>
-            <div className='col-md-4 colClass'>
+            </div>} 
+            {value.Lighting &&  <div className='col-md-4 colClass'>
                 <Lighting value={value.Lighting}/>
-            </div>
+            </div> }
         </div>
     </div>
     
