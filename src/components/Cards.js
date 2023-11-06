@@ -15,12 +15,12 @@ const Cards = () => {
 
     useEffect(() => {
         let dataJson = {
-            // 'AirQuality':{
-            //     'title' : 'Air Quality',
-            //     'value' : 72,
-            //     'high' : 93,
-            //     'low' : 61
-            // },
+            'AirQuality':{
+                'title' : 'Air Quality',
+                'value' : 72,
+                'high' : 93,
+                'low' : 61
+            },
             'Temperature':{
                 'title' : 'Temperature',
                 'celcious' : 21,
