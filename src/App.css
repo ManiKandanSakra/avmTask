@@ -48,6 +48,14 @@
   
 }
 
+.classRow{
+  justify-content: center;
+}
+
+.colClass{
+  padding: 15px;
+}
+
 .card-section{
   margin-top: 50px;
   font-family: rotaregular;
