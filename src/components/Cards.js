@@ -4,6 +4,7 @@ import Temperature from './Temperature';
 import Audio from './Audio';
 import Displays from './Displays';
 import Lighting from './Lighting';
+// import axios from 'axios'
 
 const Cards = () => {
 
@@ -13,7 +14,18 @@ const Cards = () => {
         setValue(val)
     }
 
+    // const Apicall = () => {
+    //     axios.get(`https://makeup-api.herokuapp.com/api/v1/products.json`).then(response => {
+    //        console.log('response --->',response.data)
+    //     }).catch(error => {
+    //         console.log(error)
+    //     })
+    // }
+
     useEffect(() => {
+
+        Apicall();
+
         let dataJson = {
             'AirQuality':{
                 'title' : 'Air Quality',
