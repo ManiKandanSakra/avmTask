@@ -24,7 +24,7 @@ const Cards = () => {
 
     useEffect(() => {
 
-        Apicall();
+        // Apicall();
 
         let dataJson = {
             'AirQuality':{
