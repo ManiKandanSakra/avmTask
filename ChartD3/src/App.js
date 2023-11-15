@@ -1,60 +1,30 @@
-import React, { useEffect, useState } from 'react';
 
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
 import './App.css';
+import Barcharts from './chart/barchart';
+import LineChart from './chart/linechart';
 
-import BarChart from './chart/d3chart';
-
-
-const datas = [
-
-    [10, 30, 40, 20],
-
-    [10, 40, 30, 20, 50, 10],
-
-    [60, 30, 40, 20, 30, 20, 70, 60, 90]
-
-]
-
-var i = 0;
-
-
-function App() {
-
-    const [data, setData] = useState([]);
-
-
-    useEffect(() => {
-
-        changeData();
-
-    }, []);
-
-
-    const changeData = () => {
-
-        setData(datas[i++]);
-
-        if(i === datas.length) i = 0;
-
-    }
-
-
+function App() {   
 
     return (
-
         <div className="App">
-
-            {/* <h2>Graphs with React</h2>
-
-            <button onClick={changeData}>Change Data</button> */}
-
-            <BarChart width={600} height={400} data={data} />
-
+             <Nav className="'d-flex justify-content-between" activeKey="/">
+                <Nav.Item>
+                    <Nav.Link href="/barchart">Bar Chart</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link href="/linechart">Line Chart</Nav.Link>
+                </Nav.Item>
+            </Nav>
+            <Router>
+                <Routes>
+                    <Route path='/barchart' element={<Barcharts/>} />
+                    <Route path='/linechart' element={<LineChart/>} />
+                </Routes>
+            </Router>
         </div>
-
     );
-
 }
-
 
 export default App;
