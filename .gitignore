@@ -2,6 +2,12 @@
 
 # dependencies
 /node_modules
+CardTask/node_modules
+CardTask/node_modules/*
+
+ChartD3/node_modules
+ChartD3/node_modules/*
+
 /.pnp
 .pnp.js
 

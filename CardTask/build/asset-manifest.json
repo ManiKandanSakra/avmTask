@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f1221d6.css",
+    "main.js": "/static/js/main.096f7790.js",
+    "static/js/787.dd33a981.chunk.js": "/static/js/787.dd33a981.chunk.js",
+    "static/media/rota-regular-webfont.woff": "/static/media/rota-regular-webfont.726a2218de59dc9809cb.woff",
+    "static/media/rota-bold-webfont.woff": "/static/media/rota-bold-webfont.285abfca4144e62903f1.woff",
+    "static/media/rota-medium-webfont.woff": "/static/media/rota-medium-webfont.1e66d1a223853833bf42.woff",
+    "static/media/rota-black-webfont.woff": "/static/media/rota-black-webfont.8ca0abf0e477b106fa27.woff",
+    "static/media/rota-regular-webfont.woff2": "/static/media/rota-regular-webfont.f5fe42ccb81cc20f3d78.woff2",
+    "static/media/rota-bold-webfont.woff2": "/static/media/rota-bold-webfont.999f519383a676f329f6.woff2",
+    "static/media/rota-medium-webfont.woff2": "/static/media/rota-medium-webfont.275d4c7bc81bb688115f.woff2",
+    "static/media/rota-black-webfont.woff2": "/static/media/rota-black-webfont.907851805ac472e868e8.woff2",
+    "static/media/logo.svg": "/static/media/logo.62e5e9965cb3984b0ce1f48db240873f.svg",
+    "static/media/snowflake.svg": "/static/media/snowflake.44185d1b1273dd993d5b24ac4e58dac8.svg",
+    "static/media/fire.svg": "/static/media/fire.cf3433ca842cc761638859cafc5ada76.svg",
+    "index.html": "/index.html",
+    "main.3f1221d6.css.map": "/static/css/main.3f1221d6.css.map",
+    "main.096f7790.js.map": "/static/js/main.096f7790.js.map",
+    "787.dd33a981.chunk.js.map": "/static/js/787.dd33a981.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f1221d6.css",
+    "static/js/main.096f7790.js"
+  ]
+}
