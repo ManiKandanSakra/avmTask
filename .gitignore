@@ -11,6 +11,9 @@ ChartD3/node_modules/*
 d3-examples-main/node_modules
 d3-examples-main/node_modules/*
 
+rechart/rechart/node_modules
+rechart/rechart/node_modules/*
+
 /.pnp
 .pnp.js
 
